@@ -1,0 +1,400 @@
+﻿*
+{
+    margin:0px;
+    padding:0px;
+}
+#header{
+    background-color:#e3e6f3;
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.06);
+    z-index:999;
+    position:sticky;
+    top:0px;
+    left:0px;
+    width:100%;
+    
+}
+#headerLinks{
+    display:flex;
+    list-style:none;
+    padding:0px 0px ;
+    
+}
+li {
+    padding: 25px 25px 0px 20px;
+    font-size:30px;
+    font-weight:600;    
+}
+    li a {
+        text-decoration: none;
+        color: rgba(30, 28, 28,0.7);
+        transition: 0.3s ease;
+    }
+
+    li a:hover,li a.active {
+        text-decoration: underline;
+        color: #088178;  
+    }
+
+li a img {
+    height: 10px;
+}
+    li a img :hover {
+        height: 10px;
+        color: #088178;
+    }
+#header img {
+    margin-left: 20px;
+    height: 42px;
+    margin-right: 20px;
+    
+}
+.logo img {
+    padding: 29px;
+    max-height: 124px;
+    width: 100px;
+}
+#hero{
+    background-image:url('hero4.png');
+    height:90vh;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    padding-left:80px;
+    justify-content:center;
+}
+
+h3{
+    font-size:30px;
+    padding-bottom:10px;
+}
+
+#hero h1 {
+    font-size: 45px;
+    padding-bottom: 10px;
+    color: #088178;
+}
+h2{
+    font-size:45px;   
+}
+
+p{
+    font-size:20px;
+    padding-bottom:10px;
+}
+
+#hero button{
+    background-color:transparent;
+    background-image:url("button.png");
+    width:200px;
+    height:50px;
+    border:0px;
+    font-size:20px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+
+/*====================================================features==============================*/
+
+#feature {
+    padding: 40px 70px;
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+#fee_box {
+    box-shadow: 6px 13px 1px 0px rgba(0,0,0,0.02);
+    display: inline-block;
+    padding: 35px 20px;
+    border-radius: 10px;
+    margin:10px;
+}
+
+#fee_box img{
+    padding: 10px 5px;
+}
+#fee_box p{
+    font-size:17px;
+    text-align:center;
+    padding: 6px;
+    background-color:pink;
+    border-radius:15px;
+    
+}
+    #fee_box:hover {
+        box-shadow: 6px 13px 1px 1px rgba(0,0,0,0.09);
+    }
+
+    #fee_box:nth-child(2) p{
+        background-color:aqua;
+
+    }
+
+    #fee_box:nth-child(3) p {
+        background-color: lightblue;
+    }
+    #fee_box:nth-child(4) p {
+        background-color: mediumpurple;
+    }
+    #fee_box:nth-child(5) p {
+        background-color:lightgoldenrodyellow ;
+    }
+
+    #fee_box:nth-child(6) p {
+        background-color: lawngreen;
+    }
+
+
+/*======================================================================PRODUCTS SECTION============================================================*/
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+ .products{
+     padding:40px 70px;
+     
+ }
+ .products h1{
+     text-align:center;
+     color:black;
+ }
+    .products h4 {
+        text-align: center;
+        color: grey;
+        padding-bottom:15px;
+    }
+
+
+    .products #box {
+        border: 1px solid grey;
+        padding: 10px 10px;
+        width:20%;
+        overflow:hidden;
+        border-radius:20px;
+        
+    }
+        
+        .products #box img {
+            width: 100%;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+
+        .products #box p {
+            padding:5px 10px;
+            font-size: 20px;
+            color: grey;
+        }
+
+.rate {
+     padding: 5px 10px;
+     
+}
+    .rate i {
+        color: yellow;
+       
+    }
+.cart {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+    .cart h5 {
+        font-size: 20px;
+        color: #088178;
+    }
+    .cart i {
+        background-color: rgba(211,211,211,0.9);
+        border-radius: 50%;
+        padding: 8px;
+    }
+    .cart i:hover {
+        background-color: #088178;
+        border-radius: 50%;
+        padding: 8px;
+        transition:ease 0.4s;
+    }
+
+    /*================================================================Banner Section=======================================================================*/
+
+#banner {
+    background-image: url(banner_background.jpg);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    display:block;
+    padding:50px 0px;
+    background-size:cover;
+    background-position:center;
+}
+
+#banner h2{
+    padding:10px 0px;
+}
+
+    #banner button{
+       padding: 10px 30px;
+       border-radius:10px;
+       font-weight:600;
+       background-color:white;
+       border:none;
+       font-size:18px;
+       
+    }
+
+        #banner button:hover {
+            background-color: #088178;
+            transition: 0.3s;
+            color: white;
+            color: white;
+        }
+
+/*=================================================================Banner2================================================================================*/
+
+
+#banner2{
+    display:flex;
+    justify-content:space-between;
+    padding:40px 70px;
+}
+
+
+#b1, #b2 {
+    background-image: url(b17.jpg);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: flex-start;
+    display: block;
+    padding: 100px 30px 80px 30px;
+    background-size: cover;
+    background-position: center;
+    width: 580px;
+    height: 250px;
+}
+
+#b2 {
+    background-image: url(b10.jpg);
+}
+
+#banner2  h1,h3{
+    padding:4px 0px;
+}
+#banner2 h5 {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+#banner2 button {
+    padding: 10px 30px;
+    background:transparent;
+    font-weight: 600;
+    border: 1px solid white;
+    font-size: 18px;
+    color:white;
+  
+}
+
+    #banner2 button:hover {
+        background-color: #088178;
+        color:white;
+    }
+
+
+    /*============================================================================Banner3=================================================================*/
+#banner3{
+    display:flex;
+    justify-content:space-between;
+    padding:30px 70px;
+}
+#box1,#box2,#box3{
+    background-image:url('b7.jpg');
+    width:430px;
+    height:200px;
+    
+    background-position:center;
+    background-size:cover;
+}
+
+#banner3 h3{
+    color:white;
+    font-weight:600;
+    padding:60px 25px 0px 25px;
+    font-size:35px;
+
+}
+
+#banner3 h4 {
+    color: red;
+    font-weight: 600;
+    padding: 10px 25px;
+    font-size:25px;
+}
+
+#box2{
+    background-image: url('b4.jpg');
+}
+
+#box3 {
+    background-image: url('b18.jpg');
+}
+
+/*=========================================================================Banner4===========================================================================*/
+
+#banner4 {
+    background-color:#041e42;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding:30px 0px;
+
+}
+
+    #banner4 .b4_part1{
+        padding:17px 70px;
+    }
+        #banner4 .b4_part1 p{
+            color:#818ea0;
+            font-size:17px;
+            font-weight:600;
+        }
+
+
+
+
+
+.b4_part2 {
+            padding: 17px 70px;
+            display:flex;
+            width:40%;
+        }
+.b4_part2 input{
+   height:60px;
+   width:100%;
+    justify-content:left;
+    padding:0px 8px;
+    
+}
+    .b4_part2 button {
+        padding: 18px 28px;
+        color: white;
+        background-color: #088178;
+        border: none;
+        margin-right: 0px;
+    }
+
